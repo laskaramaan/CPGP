@@ -105,3 +105,7 @@ We can use a separate css file and link it to the html file with the help of lin
 </body>
 
 ```
+
+### Box model
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
