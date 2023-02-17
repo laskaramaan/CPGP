@@ -8,16 +8,16 @@
 // var ele = document.getElementById("heading1");
 
 // ele.addEventListener("click", changeHeading);
+let counter = document.getElementById("counter").innerHTML;
 
 function increment_counter() {
-  let counter = document.getElementById("counter").innerHTML;
   counter++;
   console.log(counter);
   document.getElementById("counter").innerHTML = counter;
 }
 
 function decrement_counter() {
-  let counter = document.getElementById("counter").innerHTML;
+  //   let counter = document.getElementById("counter").innerHTML;
   //   if (counter > 0) {
   //     counter--;
   //     console.log(counter);
