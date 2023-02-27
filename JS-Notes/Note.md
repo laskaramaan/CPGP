@@ -69,3 +69,46 @@ arg1-> name on the event that you want to fireup
 arg2->name of the function [Note: we are not calling the function, we are justing wrting the name of the function]
 
 Task: build counter application which will have a increment button and a decrement button
+
+## Youtube resource notes
+
+**Object in detail**
+
+### What is object?
+
+-> Its a collection of related data and/or related function
+
+-> We store data in the object in form of key,value pair
+
+-> We can store data of different data types in an object
+
+### Ways to define an object?
+
+-> 1. let user={}; //This is most commonly used
+
+-> 2. let member=new Object();
+
+### adding new properties
+
+user.name="peter";
+member.name="Bruce"
+
+**Note:** const keyword doesn't effect key-value pair (we can change the value )
+
+### Function inside object
+
+```
+let user = {
+
+  //function inside object
+  getData: function () {
+    return "data is here";
+  },
+};
+
+console.log(user.getData());
+```
+
+### Delete property in object
+
+delete user.getData
